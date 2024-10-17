@@ -9,7 +9,7 @@ const Home = () => {
     const [workouts, setWorkouts] = useState()
     
     async function fetchWorkouts(){
-        const res = await fetch('http://localhost:4000/api/workouts')
+        const res = await fetch('https://workouts-server-lr4l.onrender.com/api/workouts')
         const data = await res.json()
         if(res.ok){
             setWorkouts(data)

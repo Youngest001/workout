@@ -20,7 +20,7 @@ const Workoutform = ({fetchWorkouts}) =>{
             alert("Fill in the fields")
         }else{
 
-            const response = await fetch('http://localhost:4000/api/workouts',{
+            const response = await fetch('https://workouts-server-lr4l.onrender.com/api/workouts',{
                 method:'POST',
                 body: JSON.stringify(workout),
                 headers: {

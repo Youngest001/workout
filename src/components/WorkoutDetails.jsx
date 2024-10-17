@@ -3,7 +3,7 @@ import React from 'react'
 const WorkoutDetails = ({workout, fetchWorkouts}) => {
 
   async function handleClick() {
-    const response = await fetch(`http://localhost:4000/api/workouts/${workout._id}`,{
+    const response = await fetch(`https://workouts-server-lr4l.onrender.com/api/workouts/${workout._id}`,{
       method:'DELETE'
     })
     if (response.ok) {
