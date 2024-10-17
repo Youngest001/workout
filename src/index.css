@@ -1,0 +1,113 @@
+
+
+/* layout*/
+
+
+
+body{
+    background: #f1f1f1;
+    margin: 0;
+    font-family: "poppins";
+    
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+
+header{
+    background: #fff;
+}
+header .container {
+    max-width: 1400px;
+margin: 0 auto;
+padding: 10px 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+header a {
+    color: #333;
+    text-decoration: none;
+    }
+    .pages{
+        max-width: 1400px;
+        padding: 20px;
+        margin: 0 auto;
+        
+    }
+
+
+    .workout-details{
+        background-color: #f4f4f4;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        background-color: rgb(215, 227, 197);
+
+        
+    }
+    .workout-details h4{
+        color:#00A300;
+    }
+    .workouts{
+        flex: 2;
+        margin-right: 20px;
+    }
+
+    
+
+
+    
+        
+
+
+    .create{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        background-color: rgb(215, 227, 197);
+
+    }
+
+    .workout-details button{
+        padding: 10px 15px;
+        width: fit-content;
+        cursor: pointer;
+        border-radius: 4px;
+        border: none;
+        color: white;
+        background-color: blue;
+    }
+
+    .create input{
+       padding: 10px;
+       margin: 10px 0;
+       width: 200px;
+       border-radius: 4px;
+    }
+    .create button{
+        padding: 10px 15px;
+        width: fit-content;
+        cursor: pointer;
+        border-radius: 4px;
+        border: none;
+        color: white;
+        background-color: blue;
+    }
+    .create label{
+        color:green;
+    }
+
+    input.error {
+        border: 1px solid var(--error);
+    }
